@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
 }
@@ -37,16 +39,46 @@ a {
   /* margin: auto; */
 }
 
+.link:hover{
+  background-color: #d4d5d6;
+  scale: 1.03;
+}
+
 .icon{
   margin: 0 10px;
 }
 
-@media (prefers-color-scheme: dark) {
+.desktop_share{
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile_share{
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  cursor: pointer;
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
     background: black;
+  }
+} */
+
+@media screen and (min-width: 700px) {
+  .desktop_share{
+    display: block;
+  }
+  
+  .mobile_share{
+    display: none;
   }
 }
