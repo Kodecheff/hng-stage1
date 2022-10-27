@@ -42,27 +42,27 @@ export default function Home() {
 
         <div className="link_section">
           <Link href={"https://twitter.com/meta_khal"} legacyBehavior>
-            <a className="link">Twitter Link</a>
+            <a className="link" >Twitter Link</a>
           </Link>
 
           <Link href={"https://training.zuri.team/"} legacyBehavior>
-            <a className="link">Zuri Team</a>
+            <a className="link" id="btn_zuri">Zuri Team</a>
           </Link>
 
           <Link href={"http://books.zuri.team/"} legacyBehavior>
-            <a className="link">Zuri books</a>
+            <a className="link" id="books">Zuri books</a>
           </Link>
 
           <Link href={"https://books.zuri.team/python-for-beginners?ref_id=khal"} legacyBehavior>
-            <a className="link">Python Books</a>
+            <a className="link" id="book_python">Python Books</a>
           </Link>
 
           <Link href={"https://background.zuri.team/"} legacyBehavior>
-            <a className="link">Background Check for Coders</a>
+            <a className="link" id="pitch">Background Check for Coders</a>
           </Link>
 
           <Link href={"https://books.zuri.team/design-rules"} legacyBehavior>
-            <a className="link">Design Books</a>
+            <a className="link" id="book_design">Design Books</a>
           </Link>
         </div>
 
