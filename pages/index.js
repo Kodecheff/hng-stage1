@@ -32,7 +32,7 @@ export default function Home() {
             height={88}
             alt=""
             className="profile_img"
-            id="profile_img"
+            id="profile__img"
           />
           <h4 id="twitter">meta_khal</h4>
           <h4 id="slack" style={{display: "none"}}>Khal</h4>
@@ -46,7 +46,7 @@ export default function Home() {
           </Link>
 
           <Link href={"https://training.zuri.team/"} legacyBehavior>
-            <a className="link" id="btn_zuri">Zuri Team</a>
+            <a className="link" id="btn__zuri">Zuri Team</a>
           </Link>
 
           <Link href={"http://books.zuri.team/"} legacyBehavior>
@@ -54,7 +54,7 @@ export default function Home() {
           </Link>
 
           <Link href={"https://books.zuri.team/python-for-beginners?ref_id=khal"} legacyBehavior>
-            <a className="link" id="book_python">Python Books</a>
+            <a className="link" id="book__python">Python Books</a>
           </Link>
 
           <Link href={"https://background.zuri.team/"} legacyBehavior>
@@ -62,7 +62,7 @@ export default function Home() {
           </Link>
 
           <Link href={"https://books.zuri.team/design-rules"} legacyBehavior>
-            <a className="link" id="book_design">Design Books</a>
+            <a className="link" id="book__design">Design Books</a>
           </Link>
         </div>
 
